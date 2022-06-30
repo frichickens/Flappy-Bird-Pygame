@@ -1,4 +1,4 @@
-# FlappyBird-AI-Tensorflow
+# FlappyBird:
 1. SOME WORDS ABOUT THIS PROJECT:
 
 - I found a youtube channel by chance: “Code Bullet” then I got inspired by him.
