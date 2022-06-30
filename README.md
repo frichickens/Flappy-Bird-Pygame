@@ -1,7 +1,5 @@
 # FlappyBird:
 1. SOME WORDS ABOUT THIS PROJECT:
-
-- I found a youtube channel by chance: “Code Bullet” then I got inspired by him.
 - At the time I'm working on this project, I was in grade 11 and wanted to improved coding skill. 
 - This game also created by a Vietnamese.
 - This is my result:
@@ -12,11 +10,3 @@
 - I used Pygame since it's really convenient for making games on Python.
 - I've also referred to some Flappy Bird programs created with python on the Internet.
 - If you want to try the game just download the zip file   --->   Extract it   --->   Open .exe file.
-
-3. UPDATING FEATURES:
-
-- Artificial Intelligence.
-- Main menu.
-- Full screen mode.
-- Pause button.
-==>     Updating ......... this might take a long time because I have to focus on my university entrance exam.
