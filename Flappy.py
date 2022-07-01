@@ -137,16 +137,6 @@ while True:
 				bird_movement = 0
 				bird_movement -= 5.5
 
-			if game_active == False:
-				score=0
-				game_active = True
-				bird_x = 200
-				bird_y = 250
-				bird_collider.center = (bird_x,bird_y)
-				pipe_list.clear()
-
-
-
 		if event.type == SPAWNPIPE:
 			pipe_list.extend(get_pipe())
 		if event.type == BIRDFLAP:
@@ -163,8 +153,14 @@ while True:
 	my_screen.blit(background,(0,0))
 	my_screen.blit(floor,(0,450))
 
-	
-	if game_active:
+	if game_active == False:
+		score=0
+		bird_x = 200
+		bird_y = 250
+		bird_collider.center = (bird_x,bird_y)
+		pipe_list.clear()
+		game_active = True
+	else:
 		# BIRD 
 		bird_movement += gravity
 		bird_collider.centery += bird_movement
