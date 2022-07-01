@@ -1,5 +1,4 @@
 # FlappyBird:
-- Press SPACE to start or restart the game :D 
 1. SOME WORDS ABOUT THIS PROJECT:
 - At the time I'm working on this project, I was in grade 11 and wanted to improved coding skill. 
 - This game also created by a Vietnamese.
